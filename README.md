@@ -38,4 +38,10 @@ ferramenta de software para versionamento/controle de versões de um projeto qua
 
 `git pull origin <nome-da-branch>`: Faz o download das alterações do galho indicado no comando, as alterações são realizadas no galho atual do usuário.
 
-`git init`: Cria um repositório local (repo inicial denominado master, não é igual ao GitHub que cria como main).(não é tão utilizado).
+`git init`: Cria um repositório local (repo inicial denominado master, não é igual ao GitHub que cria como main).(não é tão utilizado)
+
+`git merge <nome-do-galho>`: "Junta as alterações do galho indicado no galho atual".
+
+# Pull Request
+
+ele é um pedido de merge dentro do repositório remoto (GitHub), se caso esse pedido de merge for aceito, resultará no merge dos galhos envolvidos.
