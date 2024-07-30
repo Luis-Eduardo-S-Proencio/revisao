@@ -92,11 +92,29 @@ const f3 = (<os parametros vem aqui>) => {
 
 const f4 = arg => console.log(arg)
 
+# MÓDULOS
+Módulo é um arquivo que contém código. Utilizado para organizar a aplicação/software em uma estrutura mais lógica e significativa.
 
+Os módulos/arquivos por padrão nçao se comunicam entre si, deve-se utilziar funções para exportar e importar o código de outro arquivo.
 
+# Importar
 
+//coloca o código exportado do arquivo modulo.js na variável mod
+const mod = require(" ./modulo.js") // o .js em node é opcional
 
+# Exportar
 
+module.exports = {
+    //exportando a função/variavel f1, onde outros arquivos poderão utiliza la agora f1,
+}
+
+# NPM 
+
+Gerenciador de pacotes do Node
+
+# Pacote 
+
+Código javascript externo
 
 
 
