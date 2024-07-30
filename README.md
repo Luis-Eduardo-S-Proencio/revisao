@@ -34,4 +34,4 @@ ferramenta de software para versionamento/controle de versões de um projeto qua
 
 `git branch - d <nome da branch>`: Remove o galho escolhido do repositório que o usuário está trabalhando.
 
-
+`git push -u`: Envia o seu repositório local para o remoto
