@@ -34,4 +34,8 @@ ferramenta de software para versionamento/controle de versões de um projeto qua
 
 `git branch - d <nome da branch>`: Remove o galho escolhido do repositório que o usuário está trabalhando.
 
-`git push -u`: Envia o seu repositório local para o remoto
+`git push -u origin <nome-da-branch>`: Envia as alterações do local para o repositório remoto.
+
+`git pull origin <nome-da-branch>`: Faz o download das alterações do galho indicado no comando, as alterações são realizadas no galho atual do usuário.
+
+`git init`: Cria um repositório local (repo inicial denominado master, não é igual ao GitHub que cria como main).(não é tão utilizado).
