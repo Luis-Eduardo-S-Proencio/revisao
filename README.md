@@ -45,3 +45,68 @@ ferramenta de software para versionamento/controle de versões de um projeto qua
 # Pull Request
 
 ele é um pedido de merge dentro do repositório remoto (GitHub), se caso esse pedido de merge for aceito, resultará no merge dos galhos envolvidos.
+
+#### FUNÇÕES/MÉTODOS ####
+
+Uma função evita a repetição de código, pois sempre que aquele código é necessário, ele pode ser invocado/chamado a partir da função. Deixa o código mais organizado e significativo.
+
+Um bloco de código nomeado, que pode ou não conter parâmetros/argumentos e pode ou não conter um retorno.
+
+# Parâmetro
+
+É a variável que quem invoca a função dispõe para ela, o parâmetro/argumento modifica o comportamento da função.
+
+# Retorno
+
+É o resultado (valor) que função retorna para quem a invocou
+
+# function declaration
+
+f1() //invoco a função antes de declará - la/ funciona
+
+function f1(<os parametros vem aqui>){
+    //qualquer código
+    return //O retorno sempre é opcional, e pode ser de qualquer tipo 
+}
+
+# function expression
+
+f2() //vai quebrar o código, acessando umaa variavel antes de defini la 
+
+//funcao anonima
+const f2 = function(<os parametros vem aqui>){
+    //qualquer código
+    return // o retorno sempre é opcional, e pode ser de qualquer tipo
+}
+
+f3()
+
+//arrow function
+const f3 = (<os parametros vem aqui>) => {
+    //qualquer código
+    return// o retorno sempre é opcional e pode ser de qualquer tipo 
+}
+
+// se apenas houver um parametro, pode se remover os parentes
+//também se houver apenas uma linha de código, pode se remover a declaração do bloco
+
+const f4 = arg => console.log(arg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
